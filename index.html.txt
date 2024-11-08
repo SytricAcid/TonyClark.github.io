@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Links</title>
+    <style>
+        body { 
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .story-link {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            width: 80%;
+            text-align: center;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .story-link:hover {
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        .story-link:active {
+            background-color: rgba(255, 0, 0, 1);
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body background="grass.jpg">
+    <h1>Explore These Stories</h1>
+    <div class="container">
+        <a class="story-link" href="https://short-story.me/stories/horror-stories/1805-i-am-a-werewolf-but-im-different" target="_blank">
+            <span>I Am a Werewolf, But I'm Different</span>
+        </a>
+        <a class="story-link" href="https://short-story.me/stories/general-stories/1799-the-hanami-of-a-distant-past" target="_blank">
+            <span>The Hanami of a Distant Past</span>
+        </a>
+        <a class="story-link" href="https://short-story.me/stories/general-stories/1802-dreams-are-meant-for-sleeping" target="_blank">
+            <span>Dreams Are Meant for Sleeping</span>
+        </a>
+        <a class="story-link" href="https://short-story.me/stories/horror-stories/1800-escape" target="_blank">
+            <span>Escape</span>
+        </a>
+    </div>
+    <div class="footer">
+        <p>Click on any of the links above to read the full stories!</p>
+    </div>
+</body>
+</html>
